@@ -2,7 +2,7 @@ fileFormatVersion: 2
 guid: c376dc58079140458dc2327cc3b0d5e4
 labels:
 - gvh
-- gvh_version-8.3.0
+- gvh_version-8.4.0
 - gvhp_exportpath-Firebase/Plugins/iOS/Firebase.Crashlytics.dll.mdb
 timeCreated: 1480838400
 PluginImporter:
