@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.google.firebase</groupId>
   <artifactId>firebase-crashlytics-unity</artifactId>
-  <version>8.7.0</version>
+  <version>8.8.0</version>
   <packaging>aar</packaging>
   <dependencies>
 
