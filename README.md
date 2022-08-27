@@ -6,4 +6,6 @@
 ```csharp
 "com.google.firebase.crashlytics": "https://github.com/firebase-unity/firebase-crashlytics.git?path=Assets/_Root#8.8.0",
 "com.google.firebase.app": "https://github.com/firebase-unity/firebase-app.git?path=Assets/_Root#8.8.0",
+
+"com.google.external-dependency-manager": "https://github.com/google-unity/external-dependency-manager.git?path=Assets/_Root#1.2.169",
 ```
