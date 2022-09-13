@@ -98,14 +98,6 @@ If you import another Firebase plugin:
   `Assets > Play Services Resolver > Version Handler > Update`
   to enable the correct DLLs for your project.
 
-### Unity 2017.2 Networking
-
-Realtime Database creates TLS network connections using the .NET networking
-stack.  TLS functionality is broken in Unity 2017.2 when using .NET 4.6 causing
-the Realtime Database plugin to fail in editor and on desktop.  There is no
-workaround for this issue, you have to use a different version of Unity, for
-example 2017.1 or 2017.3.
-
 
 ### Unity 4 workarounds
 
@@ -163,6 +155,85 @@ Support
 
 Release Notes
 -------------
+### 9.5.0
+- Changes
+    - General: Updated Firebase C++ SDK dependencies to v9.5.0.
+    - Crashlytics: Fix #218 that Firebase editor tool not loading when iOS
+      build support is not installed.
+
+### 9.4.0
+- Changes
+    - General: Updated Firebase C++ SDK dependencies to v9.4.0.
+
+### 9.3.0
+- Changes
+    - General (Android, Linux): Fixed a concurrency bug where waiting for an
+      event with a timeout could occasionally return prematurely, as if the
+      timeout had occurred
+      ([#1021](https://github.com/firebase/firebase-cpp-sdk/pull/1021)).
+
+### 9.2.0
+- Changes
+    - Crashlytics: Fix requiring user code to reference Crashlytics when using il2cpp.
+    - Firestore: Added `TransactionOptions` to control how many times a
+      transaction will retry commits before failing
+      ([#318](https://github.com/firebase/firebase-unity-sdk/pull/318)).
+    - Database (Desktop): If the app data directory doesn't exist, create it.
+      This fixes an issue with disk persistence on Linux.
+    - Messaging (Android): Make sure all the resources are closed in
+      `RegistrationIntentService`.
+      ([#973](https://github.com/firebase/firebase-cpp-sdk/issues/973)).
+
+### 9.1.0
+- Changes
+    - General: Added a missing namespace to the Google.MiniJson.dll.
+    - General (iOS): Fix an issue with bitcode not being enabled correctly.
+    - Functions: Add a new method `GetHttpsCallableFromURL`, to create callables
+      with URLs other than cloudfunctions.net.
+    - Analytics (iOS): Added InitiateOnDeviceConversionMeasurementWithEmail function to facilitate the
+      [on-device conversion measurement](https://support.google.com/google-ads/answer/12119136) API.
+
+### 9.0.0
+- Changes
+    - General: Minimum supported editor version is now Unity 2018.
+    - General (Editor, macOS): Add support for Apple Silicon chips.
+    - General (iOS): Firebase Unity on iOS is now built using Xcode 13.3.1.
+    - General (iOS): Fixed crash when running on iPhoneOS 12 and older.
+    - Analytics: Removed deprecated event names and parameters.
+    - Crashlytics (Android): Fixed a bug with missing symbols when enabling
+      minification via proguard.
+    - Messaging (Android): Fixed a bug with duplicate symbols when also
+      using Functions.
+    - Realtime Database (Desktop): Fixed a bug handling server timestamps
+      on 32-bit CPUs.
+    - Storage (Desktop): Set Content-Type HTTP header when uploading with
+      custom metadata.
+
+### 8.10.1
+- Changes
+    - General (Android): Fix an issue when building with mainTemplate.gradle.
+
+### 8.10.0
+- Changes
+    - General (Editor, macOS): Fix an issue when finding "python" executable.
+    - General : Firebase Unity SDK starts to build using Unity 2019,
+      and releases from git repo.
+
+### 8.9.0
+- Changes
+    - General (Editor, macOS): Support non-default "python" executable names,
+      common in newer macOS versions.
+    - General (iOS): Fixed additional issues on iOS 15 caused by early
+      initialization of Firebase iOS SDK.
+    - Remote Config: Fixed default FetchAsync() timeout being too high.
+    - Storage (Desktop): Added retry logic to PutFileAsync, GetFileAsync, and
+      other operations.
+
+### 8.8.1
+- Changes
+    - General (iOS): Fixed additional issues on iOS 15 caused by early
+      initialization of Firebase iOS SDK.
+
 ### 8.8.0
 - Changes
     - General (iOS): Another possible fix for an intermittent crash on iOS 15
