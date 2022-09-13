@@ -7,7 +7,7 @@
 "com.google.firebase.crashlytics": "https://github.com/firebase-unity/firebase-crashlytics.git?path=Assets/_Root#9.5.0",
 ```
 
-- dependency `external-dependency-manager-1.2.172`
+- dependency `firebase-app 9.5.0`, `external-dependency-manager 1.2.172`
 ```csharp
 "com.google.firebase.app": "https://github.com/firebase-unity/firebase-app.git?path=Assets/_Root#9.5.0",
 "com.google.external-dependency-manager": "https://github.com/google-unity/external-dependency-manager.git?path=Assets/_Root#1.2.172",
