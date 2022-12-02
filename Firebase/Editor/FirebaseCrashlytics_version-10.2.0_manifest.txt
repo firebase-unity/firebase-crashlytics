@@ -5,8 +5,8 @@ Assets/Firebase/Plugins/Firebase.Crashlytics.dll
 Assets/Firebase/Plugins/Firebase.Crashlytics.pdb
 Assets/Firebase/Plugins/iOS/Firebase.Crashlytics.dll
 Assets/Firebase/Plugins/iOS/Firebase.Crashlytics.pdb
-Assets/Firebase/m2repository/com/google/firebase/firebase-crashlytics-unity/10.1.1/firebase-crashlytics-unity-10.1.1.pom
-Assets/Firebase/m2repository/com/google/firebase/firebase-crashlytics-unity/10.1.1/firebase-crashlytics-unity-10.1.1.srcaar
+Assets/Firebase/m2repository/com/google/firebase/firebase-crashlytics-unity/10.2.0/firebase-crashlytics-unity-10.2.0.pom
+Assets/Firebase/m2repository/com/google/firebase/firebase-crashlytics-unity/10.2.0/firebase-crashlytics-unity-10.2.0.srcaar
 Assets/Firebase/m2repository/com/google/firebase/firebase-crashlytics-unity/maven-metadata.xml
 Assets/Plugins/iOS/Firebase/libFirebaseCppCrashlytics.a
 Assets/package.json
