@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 40ec8937d6e6475ca64598793d23964d
+guid: 26ca71e1b1564b31951a417e85f09282
 labels:
 - gvh
 - gvh_manifest
-- gvh_version-11.1.0
-- gvhp_exportpath-Firebase/Editor/FirebaseCrashlytics_version-11.1.0_manifest.txt
+- gvh_version-11.2.0
+- gvhp_exportpath-Firebase/Editor/FirebaseCrashlytics_version-11.2.0_manifest.txt
 - gvhp_manifestname-0Firebase Crashlytics
 - gvhp_manifestname-1FirebaseCrashlytics
 timeCreated: 0
