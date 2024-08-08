@@ -3,7 +3,7 @@ guid: 78466de0dce747f9bf1d009be141cf6f
 labels:
 - gvh
 - gvh_targets-editor
-- gvh_version-12.1.0
+- gvh_version-12.2.0
 - gvhp_exportpath-Firebase/Editor/Firebase.Crashlytics.Editor.pdb
 timeCreated: 1480838400
 PluginImporter:
