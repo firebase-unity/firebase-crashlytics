@@ -1,6 +1,6 @@
 {
   "name": "com.google.firebase.crashlytics",
-  "version": "12.3.0",
+  "version": "12.4.0",
   "displayName": "Firebase Crashlytics",
   "keywords": [
     "Google",
@@ -17,6 +17,6 @@
   "description": "Prioritize and fix stability issues faster.\n\nFirebase Crashlytics helps you track, prioritize, and fix stability issues that erode game quality, in realtime. Spend less time triaging and troubleshooting crashes and more time building game content and features that delight players.\n\nCrashlytics also sends realtime alerts for new issues, regressed issues, and burgeoning issues that might require immediate attention to ensure you never miss a critical crash no matter where you are.",
   "unity": "2020.1",
   "dependencies": {
-    "com.google.firebase.app": "12.3.0"
+    "com.google.firebase.app": "12.4.0"
   }
 }
